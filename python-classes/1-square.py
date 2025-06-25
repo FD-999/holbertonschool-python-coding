@@ -5,20 +5,12 @@
 class Square:
     """baba"""
 
-
     def __init__(self, size=0):
         """babaa"""
-
-
         if type(size) != int:
-            """fd"""
-
 
             raise TypeError("size must be an integer")
         is size < 0:
-            """fd"""
-
-
 
             raise ValueError("size must be >= 0")
         self.__size = size
