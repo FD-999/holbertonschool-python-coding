@@ -12,4 +12,3 @@ class Square:
 
         self.__size = size
 sq = Square(5)
-~
